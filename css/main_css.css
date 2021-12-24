@@ -230,6 +230,7 @@ height: 380px;
     height: 600px;
     background-color: bisque;
     display: flex;
+    
 }
 #section2 .review_img{
     background: url("../main_img/cutting.jpg")no-repeat;
@@ -249,10 +250,10 @@ height: 380px;
     background-position: center;
     width: 50%;
     padding:80px 60px;
-}
-#section2 .review_text{
     color:white;
+    text-shadow: 0px 5px 0px 5px black;
 }
+
 
 
 #section2 .review_button{
@@ -265,6 +266,7 @@ height: 380px;
     font-size: 18px;
     transition: 0.5s ease;
     border-radius: 10px;
+    margin:200px 0 0 0px;
 }
 #section2 .review_button:hover{
     background-color: #b60009;
@@ -273,14 +275,18 @@ height: 380px;
 #section2 .review_title{
     font-size: 50px;
 }
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+
+  #section2 .review_slide{
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      font-size: 23px;
   }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+  #section2 .review_slide p{position: absolute; width: 100%; top:-30; }
+  #section2 .review_slide p:not(:first-child){display: none;}
+
+  #section2 .review_good{
+    font-size: 25px;
   }
   
  

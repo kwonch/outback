@@ -12,20 +12,15 @@
     });
 
   });
-  var slideIndex = 0;
-  showSlides();
-  
-  function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("review_slide");
- 
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-   
-    
-   
-    slides[slideIndex-1].style.display = "block";  
-    
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  var i=0;
+  function slide(){
+  i++;
+  if (i > $('.review_slide p:last').index()){
+  i=0;
   }
+  $('.review_slide p').eq(i).stop().fadeIn('slow');
+  $('.review_slide p').eq(i-1).stop().fadeOut();
+  
+  }
+  
+  setInterval(slide,3000);
