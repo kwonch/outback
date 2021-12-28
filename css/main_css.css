@@ -415,5 +415,129 @@ height: 380px;
 #section4{
     width: 100%;
     height: 1000px;
-    background-color:rgb(124, 124, 124);;
+    background-color:#f9f9f9;
+   
 }
+#section4 .steak_fade{
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+  
+}
+#section4 .steak_menu{
+    width: 310px;
+    height: 540px;
+    background-color: black;
+    color:white;    
+    margin-top:10%;
+}
+
+   
+#section4 .steak_title{
+    margin:0;
+}
+#section4 .steak_line{
+    border-bottom: 2px solid #ba2b31;
+
+    width: 60%;
+    margin-top: 5%;
+   margin-left:5%;
+   margin-bottom:20%;
+  
+   
+}
+#section4 .steak_menu a{
+    color:white;
+}
+
+#section4 .steak_in1, .steak_in2,.steak_in3,.steak_in4{
+    margin-left:5%;
+    margin-bottom: 10%;
+    letter-spacing: 5px;
+    cursor:pointer
+}
+#section4 .steak_ho:hover{
+   color: #ba2b31
+}
+#section4 .steak_in_line{
+  border-bottom: 2px solid #ba2b31;
+   width: 40%;
+   margin-top: 3%;
+}
+#section4 .logo_black{
+    width: 310px;
+}
+#section4 .logo_black img{
+    width: 100%;
+}
+
+
+#section4 .steak_type{
+    width: 650px;
+    height: 800px;
+    background-color: #fff;
+    margin-top: 20%;
+  
+}
+
+#section4 .steak_tbone_img{
+    background: url("../main_img/t_bone.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+  width: 600px;
+    height: 500px;
+   margin:0 auto;
+   margin-top: 20px;
+
+}
+#section4 .tbone_text{
+    padding:0px 25px;
+}
+#section4 .tbone_title{
+    margin:0;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#section4 .tbone_line{
+    border-bottom: 2px solid #ba2b31;
+    margin-bottom: 2%;
+    width: 50%;
+}
+#section4 .tbone_in{
+    color: rgb(124, 124, 124);
+}
+#section4 .steak_tomahawk_img{
+    background: url("../main_img/tomahawk.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+  width: 600px;
+    height: 500px;
+   margin:0 auto;
+   margin-top: 20px;
+
+}
+#section4 .steak_blacklabel_img{
+    background: url("../main_img/black_label.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+  width: 600px;
+    height: 500px;
+   margin:0 auto;
+   margin-top: 20px;
+
+}
+#section4 .steak_fa_img{
+    background: url("../main_img/steak_fa.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+  width: 600px;
+    height: 500px;
+   margin:0 auto;
+   margin-top: 20px;
+
+}
+
+
