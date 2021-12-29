@@ -622,14 +622,15 @@ height: 380px;
 #section5 .chef_hover{
     position: absolute;
   
-  
-    width: 270px;
+ 
+  width: 270px;
     height: 270px;
  
 }
 #section5 .chef_hover:hover{
     background-color: rgba(255, 255, 255, 0.473);
-    transition: ease 0.5s;
+  
+   width: 270px;
     
 
 }
