@@ -24,3 +24,66 @@
   }
   
   setInterval(slide,3000);
+
+  $(function(){
+    
+    $(".steak_in1").click(function(){
+    
+      $(".steak_tbone").fadeIn("slow");
+      $(".steak_tomahawk").fadeOut("slow");
+      $(".steak_blacklabel").fadeOut("slow");
+      $(".steak_fa").fadeOut("slow");
+    });
+
+    $(".steak_in2").click(function(){
+    
+        $(".steak_tbone").fadeOut("slow");
+        $(".steak_tomahawk").fadeIn("slow");
+        $(".steak_blacklabel").fadeOut("slow");
+        $(".steak_fa").fadeOut("slow");
+    });
+    $(".steak_in3").click(function(){
+     
+      $(".steak_tbone").fadeOut("slow");
+      $(".steak_tomahawk").fadeOut("slow");
+      $(".steak_blacklabel").fadeIn("slow");
+      $(".steak_fa").fadeOut("slow");
+  });
+  $(".steak_in4").click(function(){
+  
+    $(".steak_tbone").fadeOut("slow");
+    $(".steak_tomahawk").fadeOut("slow");
+    $(".steak_blacklabel").fadeOut("slow");
+    $(".steak_fa").fadeIn("slow");
+});
+
+  });
+
+  $(function(){
+    
+    $(".steak_in1").click(function(){
+      $(".steak_in1").css({color:'#ba2b31'});
+      $(".steak_in2").css({color:'white'});
+      $(".steak_in3").css({color:'white'});
+      $(".steak_in4").css({color:'white'});
+    })
+    $(".steak_in2").click(function(){
+      $(".steak_in1").css({color:'white'});
+      $(".steak_in2").css({color:'#ba2b31'});
+      $(".steak_in3").css({color:'white'});
+      $(".steak_in4").css({color:'white'});
+    });
+    $(".steak_in3").click(function(){
+      $(".steak_in1").css({color:'white'});
+      $(".steak_in2").css({color:'white'});
+      $(".steak_in3").css({color:'#ba2b31'});
+      $(".steak_in4").css({color:'white'});
+    });
+    $(".steak_in4").click(function(){
+      $(".steak_in1").css({color:'white'});
+      $(".steak_in2").css({color:'white'});
+      $(".steak_in3").css({color:'white'});
+      $(".steak_in4").css({color:'#ba2b31'});
+    
+  });
+}); 

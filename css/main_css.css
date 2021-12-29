@@ -1,6 +1,14 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
+    font-family: 'SF_HambakSnow';
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -449,9 +457,7 @@ height: 380px;
   
    
 }
-#section4 .steak_menu a{
-    color:white;
-}
+
 
 #section4 .steak_in1, .steak_in2,.steak_in3,.steak_in4{
     margin-left:5%;
@@ -459,6 +465,7 @@ height: 380px;
     letter-spacing: 5px;
     cursor:pointer
 }
+
 #section4 .steak_ho:hover{
    color: #ba2b31
 }
@@ -477,12 +484,17 @@ height: 380px;
 
 #section4 .steak_type{
     width: 650px;
-    height: 800px;
+    height: 780px;
     background-color: #fff;
     margin-top: 20%;
+   
+    overflow: hidden;
+
   
 }
-
+#section4 .kinds{
+    overflow: hidden;
+}
 #section4 .steak_tbone_img{
     background: url("../main_img/t_bone.jpg")no-repeat;
     background-position: center;
@@ -508,7 +520,12 @@ height: 380px;
 }
 #section4 .tbone_in{
     color: rgb(124, 124, 124);
+    line-height: 20px;
 }
+#section4 .steak_tomahawk{
+    display: none;
+}
+
 #section4 .steak_tomahawk_img{
     background: url("../main_img/tomahawk.jpg")no-repeat;
     background-position: center;
@@ -519,6 +536,9 @@ height: 380px;
    margin-top: 20px;
 
 }
+#section4 .steak_blacklabel{
+    display: none;
+}
 #section4 .steak_blacklabel_img{
     background: url("../main_img/black_label.jpg")no-repeat;
     background-position: center;
@@ -527,7 +547,11 @@ height: 380px;
     height: 500px;
    margin:0 auto;
    margin-top: 20px;
+   overflow: hidden;
 
+}
+#section4 .steak_fa{
+    display: none;
 }
 #section4 .steak_fa_img{
     background: url("../main_img/steak_fa.jpg")no-repeat;
@@ -537,7 +561,76 @@ height: 380px;
     height: 500px;
    margin:0 auto;
    margin-top: 20px;
-
+   overflow: hidden;
 }
 
+#section5{
+    width: 100%;
+    height: 1000px;
+    background-color: antiquewhite;
+}
+#section5 .chef_title{margin:0 auto;text-align: center; font-size: 50px;}
+#section5 .chef_seat{
+    width: 1200px;
+    height: 600px;
+    margin:0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section5 .chef{
+    width:270px;
+    height: 270px;
+    background-color: aqua;
+   
+}
+#section5 .chef_img1{
+    background: url("../main_img/chef1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+  
+}
+#section5 .chef_img2{
+    background: url("../main_img/chef2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    
+}
+#section5 .chef_img3{
+    background: url("../main_img/chef3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+  
+}
 
+#section5 .chef_text{
+    background: url("../main_img/review_background.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 3px;
+   
+    position: relative;
+}
+#section5 .chef_hover{
+    position: absolute;
+  
+  
+    width: 270px;
+    height: 270px;
+ 
+}
+#section5 .chef_hover:hover{
+    background-color: rgba(255, 255, 255, 0.473);
+    transition: ease 0.5s;
+    
+
+}
+#section5 .chef_in{ color:white;margin:0;}
