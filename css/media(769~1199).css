@@ -112,7 +112,7 @@
     }
     #section2 .review{
         width: 100%;
-        height:100%;
+        height:auto;
         background-color: bisque;
         display: flex;
         
@@ -155,7 +155,7 @@
         font-size: 18px;
         transition: 0.5s ease;
         border-radius: 10px;
-        margin:200px 0 0 0px;
+        margin-top:35%;
     }
     #section2 .review_button:hover{
         background-color: #b60009;
@@ -170,9 +170,9 @@
           position: relative;
           width: 100%;
         
-          font-size: 23px;
+          font-size: 15px;
       }
-      #section2 .review_slide p{position: absolute; width: 100%;height: auto; top:-30;}
+      #section2 .review_slide p{position: absolute; width: 100%;height: auto;}
       #section2 .review_slide p:not(:first-child){display: none;}
     
       #section2 .review_good{
