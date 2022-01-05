@@ -88,3 +88,28 @@
   });
 }); 
 
+
+$(function(){
+  $('.ham').click(function(){
+      $('.nav3').slideToggle();
+  });
+});
+
+$(window).resize(function () {
+
+if (window.innerWidth > 1199);
+  $('.nav3').hide();
+      
+});
+
+$(function(){
+
+  $('.menu3>li').click(function(){
+
+    $('.sub3').stop().slideUp();
+
+    $(this).find('.sub3').stop().slideToggle();
+
+  });
+
+});

@@ -158,3 +158,7 @@ footer{width: 100%; height: 510px;background: url("../main_img/review_background
 .footertime_text_li{margin-bottom: 10%;}
  .footer_line{width: 100%;border-bottom: 2px solid #ba2b31; margin:0 auto;}
  .footer_last{color:white; width: 1200px; margin:0 auto;font-size: 13px; padding:20px 0px;}
+
+
+
+ .nav3{display: none;}
