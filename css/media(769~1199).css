@@ -178,5 +178,197 @@
       #section2 .review_good{
         font-size: 25px;
       }
-      
+      #section3{
+        width:100%;
+        height: auto;
+    }
+    #section3 .lunch{
+        width: 100%;
+        height: auto;
+    }
+   
+    #section3 .lunch_text{
+      padding:0% 3%;
+    }
+   #section3 .wine{
+       width: 100%;
+      padding: 10% 0%;
+   }
+   #section3 .wine_img{
+       width: 500px;
+       height: 400px;
+       margin:0% 3%;
+   }
+   #section3 .wine_text{
+    padding:0% 3%;
+   }
+   #section3 .wine_line{
+      display: none;
+   }
+   #section4{
+    width: 100%;
+}
+#section4 .steak_fade{
+    width: 100%;
+}
+#section4 .steak_menu{
+    width: 25vw;
+    height: 50vh;
+    margin-top:10%;
+    margin-left: 3%;
+}
+
+
+#section4 .logo_black img{
+    width: 25vw;
+}
+
+
+#section4 .steak_type{
+    width: 60vw;
+    height: 82vh;
+    position: relative;
+    margin-right: 3%;
+ 
+  
+}
+
+#section4 .steak_tbone_img{
+ 
+  width: 55vw;
+    height: 45vh;
+   position: absolute;
+   top:0;
+   bottom:0;
+   left: 0;
+   right: 0;
+
+}
+#section4 .tbone_text{
+  margin-top:500px;
+   
+}
+#section4 .steak_tomahawk_img{
+  
+    width: 55vw;
+    height: 45vh;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+#section4 .steak_blacklabel{
+    display: none;
+}
+#section4 .steak_blacklabel_img{
+   
+    width: 55vw;
+    height: 45vh;
+   position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+
+}
+#section4 .steak_fa{
+    display: none;
+}
+#section4 .steak_fa_img{
+    width: 55vw;
+    height: 45vh;
+   position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+#section5{
+    width: 100%;
+}
+#section5 .chef_title{text-align: center; font-size: 50px;}
+#section5 .chef_seat{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section5 .chef{
+    width:27vw;
+    height: 27vh;
+}
+
+
+  #section5 .icon{
+      width: 8vw;
+  }
+
+  #section6{
+    width: 100%;
+   
+}
+
+#section6 .outback_news{
+    width:100%;
+    height:530px;
+}
+#section6 .news_title{text-align: center;font-size: 50px;}
+#section6 .insider{
+    width:30vw;
+    height:50vh;
+}
+#section6 .first_img{
+    height: 28vh;
+}
+#section6 .second_img{
+    height: 28vh;
+}
+#section6 .third_img{
+    height: 28vh;
+}
+#section6 .fourth_img{
+    height: 28vh;
+}
+#section6 .fifth_img{
+    height: 28vh;
+}
+#section6 .sixth_img{
+    height: 28vh;
+}
+#section6 .outback_news_text{
+    font-size: 18px;
+    padding:20px 20px;
+    margin-bottom: 3%;
+    line-height: 30px;
+    color:white;
+    text-align: center;
+     cursor: pointer;
+    
+}
+#section6 .outback_news_text:hover{
+    color:#ba2b31
+}
+#section6 .outback_news_line{
+    border-bottom: #fff solid 2px;
+   margin:10px 0px;
+}
+footer{width: 100%; background: url("../main_img/review_background.jpg")no-repeat; background-position: center;background-size: cover; border-bottom: 5px solid #ba2b31;}
+
+   .footer_in{margin:0 auto;width: 100%;  }
+   .footer_img{width: 200px; }
+   .footer_img img{width: 100%; }
+   .footer_nav{  padding:0%3%; }
+   .contact_us{ padding:0% 3%;}
+   .time{ padding:0% 3%;}
+   .gather{font-size: 15px;}
+   .footernav_text_li{font-size: 15px;}
+.footertime_text_li{font-size: 15px; margin-bottom: 5%}
+  
+
+ 
+ .footer_last{  padding:20px 50px;}
+
 }
