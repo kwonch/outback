@@ -27,7 +27,7 @@
     }
     .sub3 a{font-size: 15px;}
     .nav3{display:none; text-align: center;}
-    .ham{font-size: 40px; color:white;cursor: pointer; padding-right: 3%;}
+    .ham{font-size: 40px; color:white;cursor: pointer; padding-right: 3%; display: block;}
     .ham_logo{width:100%;display: flex; justify-content: space-between;align-items: center;}
     .menu3{
         width: 100%;
