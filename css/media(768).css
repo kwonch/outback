@@ -34,7 +34,8 @@
         flex-flow: column wrap;
         margin-bottom: 3%;
     }
-    .menu3 >li{margin-bottom: 3%;}
+    .menu3 >li{padding:3% 3%; }
+    .menu3>li:hover{background-color:#b60009;transition: ease 0.3s;}
     .sub3{display:none; background: black; line-height: 30px;}
     .sub3 a:hover{color:#ba2b31;transition: ease 0.3s;}
    
