@@ -236,36 +236,41 @@
       display: none;
    }
    #section4{
-    width: 100%;
+    width: 100%; height: auto;
 }
 #section4 .steak_fade{
     width: 100%;
+    height: auto;
+    display: flex; flex-flow: column;
 }
 #section4 .steak_menu{
-    width: 25vw;
-    height: 50vh;
+    width: 80vw;
+    height:22vh;
     margin-top:10%;
-    margin-left: 3%;
+ 
+   
 }
-
+.steak_in{ display: flex;flex-flow: row nowrap;}
 
 #section4 .logo_black img{
-    width: 25vw;
+    width: 30vw; margin-left:40%;
 }
-
+#section4 .steak_line{margin-bottom:8% ; }
+#section4 .steak_in_line{margin:0 auto;}
 
 #section4 .steak_type{
-    width: 60vw;
-    height: 82vh;
+    width: 80vw;
+    height: 85vh;
     position: relative;
-    margin-right: 3%;
-    overflow: scroll;
+ 
+    
+    margin-top:0;
   
 }
 
 #section4 .steak_tbone_img{
  
-  width: 55vw;
+  width: 70vw;
     height: 45vh;
    position: absolute;
    top:0;
@@ -275,12 +280,12 @@
 
 }
 #section4 .tbone_text{
-  margin-top:500px;
+  margin-top:450px;
    
 }
 #section4 .steak_tomahawk_img{
   
-    width: 55vw;
+    width: 70vw;
     height: 45vh;
     position: absolute;
     top:0;
@@ -293,7 +298,7 @@
 }
 #section4 .steak_blacklabel_img{
    
-    width: 55vw;
+    width: 70vw;
     height: 45vh;
    position: absolute;
     top:0;
@@ -306,7 +311,7 @@
     display: none;
 }
 #section4 .steak_fa_img{
-    width: 55vw;
+    width: 70vw;
     height: 45vh;
    position: absolute;
     top:0;
@@ -314,7 +319,7 @@
     left: 0;
     right: 0;
 }
-#section4 .steak_ho{padding:0%3%; letter-spacing: 2px;}
+#section4 .steak_ho{ letter-spacing: 2px; margin:0; font-size: 14px;text-align:center; }
 #section5{
     width: 100%; height: auto;
 }
