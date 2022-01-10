@@ -39,13 +39,9 @@
     .sub3{display:none; background: black; line-height: 30px;}
     .sub3 a:hover{color:#ba2b31;transition: ease 0.3s;}
    
-    #banner{
-        width: 100vw;
-        height: auto;
-      
-    }
+    #banner{ width: 100%;height: auto;}
     #banner .banner_img{
-      width:100vw;
+      width:120%;
         height:46vh;
         background: url("../main_img/slide_banner2.jpg") no-repeat center;
         background-position:center;
@@ -54,13 +50,7 @@
         position: relative;
       
     }
-    #banner .banner_text{
-       
-     font-size: 13px;
-      margin:-20px 120px 0px 0px ;
-
-       
-    }
+    #banner .banner_text{   font-size: 13px;margin:-20px 120px 0px 0px ;  }
     #banner .more{
         width: 80px;
         height: 20px;
@@ -141,7 +131,7 @@
     }
     #section1 .delivery_title{text-align: center;}
     #section1 .delivery_in{ text-align: center;}
-    #section1 .delivery_button{margin:0% 35%;}
+    #section1 .delivery_button{margin-left:35%;}
 
     #section2{
         width: 100%;
@@ -182,7 +172,7 @@
         margin-top:20vh;
     }
    
-    }
+    
     #section2 .review_title{
         font-size: 40px;
     }
@@ -197,7 +187,246 @@
       #section2 .review_slide p{position: absolute; width: 100%;height: auto;}
       #section2 .review_slide p:not(:first-child){display: none;}
     
-      #section2 .review_good{
-        font-size: 25px;
-      }
+      #section2 .review_good{font-size: 25px;}
+      #section3{
+        width:100%;
+        height: auto;
+      
+    }
+    #section3 .lunch{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow:column;
+    }
+    #section3 .lunch_img img{
+        width: 80vw;
+        height: 45vh;
+        border-radius: 1000px;
+       
+    }
+    #section3 .lunch_img{
+        width: 450px;
+        height: 400px;
+       padding:0;
+       margin-left: 7%;
+    }   
+    #section3 .lunch_line{display: none;}
+    #section3 .lunch_line2{  width: 80%;margin-left: 10%; border-bottom: 2px solid #ba2b31;}
+     
+    #section3 .lunch_text{
+      padding:0% 3%;
+      text-align: center;
+    }
+   #section3 .wine{
+       width: 100%;
+     height: auto;
+      display: flex;
+      flex-flow: column-reverse;
+   }
+   #section3 .wine_img{
+       width: 80%;
+       height: 30vh;
+       margin:8% auto;
+   }
+   #section3 .wine_text{
+    padding:0% 3%; text-align: center;
+   }
+   #section3 .wine_line{
+      display: none;
+   }
+   #section4{
+    width: 100%;
 }
+#section4 .steak_fade{
+    width: 100%;
+}
+#section4 .steak_menu{
+    width: 25vw;
+    height: 50vh;
+    margin-top:10%;
+    margin-left: 3%;
+}
+
+
+#section4 .logo_black img{
+    width: 25vw;
+}
+
+
+#section4 .steak_type{
+    width: 60vw;
+    height: 82vh;
+    position: relative;
+    margin-right: 3%;
+    overflow: scroll;
+  
+}
+
+#section4 .steak_tbone_img{
+ 
+  width: 55vw;
+    height: 45vh;
+   position: absolute;
+   top:0;
+   bottom:0;
+   left: 0;
+   right: 0;
+
+}
+#section4 .tbone_text{
+  margin-top:500px;
+   
+}
+#section4 .steak_tomahawk_img{
+  
+    width: 55vw;
+    height: 45vh;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+#section4 .steak_blacklabel{
+    display: none;
+}
+#section4 .steak_blacklabel_img{
+   
+    width: 55vw;
+    height: 45vh;
+   position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+
+}
+#section4 .steak_fa{
+    display: none;
+}
+#section4 .steak_fa_img{
+    width: 55vw;
+    height: 45vh;
+   position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+#section4 .steak_ho{padding:0%3%; letter-spacing: 2px;}
+#section5{
+    width: 100%; height: auto;
+}
+#section5 .chef_title{text-align: center; font-size: 40px;}
+#section5 .chef_text{font-size: 23px;}
+#section5 .chef_seat{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+#section5 .chef{
+    width:80vw;
+    height: 27vh;
+    margin-bottom: 55%;
+}
+
+
+  #section5 .icon{
+      width: 20vw;
+  }
+  #section5 .chef_img1{
+    height: 40vh;
+  
+   
+    
+  
+}
+#section5 .chef_img2{
+    height: 40vh;
+  
+    
+}
+#section5 .chef_img3{
+    height: 40vh;
+   
+  
+}
+
+#section6{
+    width: 100%; height: auto;
+   
+}
+
+#section6 .outback_news{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-flow: column;
+    
+}
+#section6 .news_title{text-align: center;font-size: 50px;}
+#section6 .insider{
+    width:80vw;
+    height:50vh;
+    margin-bottom: 10%;
+}
+#section6 .first_img{
+    height:30vh;
+}
+#section6 .second_img{
+    height: 30vh;
+}
+#section6 .third_img{
+    height: 30vh;
+}
+#section6 .fourth_img{
+    height: 30vh;
+}
+#section6 .fifth_img{
+    height: 30vh;
+}
+#section6 .sixth_img{
+    height: 30vh;
+}
+#section6 .outback_news_text{
+    font-size: 23px;
+    padding:20px 20px;
+    margin-bottom: 3%;
+    line-height: 30px;
+    color:white;
+    text-align: center;
+     cursor: pointer;
+    
+}
+#section6 .outback_news_text:hover{
+    color:#ba2b31
+}
+#section6 .outback_news_line{
+    border-bottom: #fff solid 2px;
+   margin:10px 0px;
+}
+footer{width: 100%; height: auto; background: url("../main_img/review_background.jpg")no-repeat; background-position: center;background-size: cover; border-bottom: 5px solid #ba2b31;}
+
+   .footer_in{margin:0 auto;width:100%;height: auto; display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: flex-start;}
+   .footer_img{width: 200px;height: auto; }
+   .footer_img img{width: 100%;  padding:10%0%;}
+   .footer_nav{  padding:10%20%; font-size: 13px;}
+   .contact_us{ padding:0% 3%; width: 45vw;}
+   .time{ padding:0% 3%;}
+   .gather{font-size: 13px;}
+   .footernav_text_li{font-size: 13px;}
+.footertime_text_li{font-size: 13px; margin-bottom: 5%}
+  
+
+ 
+ .footer_last{  padding:20px 50px;}
+
+}
+
+
+    
