@@ -244,8 +244,8 @@
     display: flex; flex-flow: column;
 }
 #section4 .steak_menu{
-    width: 80vw;
-    height:22vh;
+    width: 90vw;
+    height:25%;
     margin-top:10%;
  
    
@@ -253,14 +253,14 @@
 .steak_in{ display: flex;flex-flow: row nowrap;}
 
 #section4 .logo_black img{
-    width: 30vw; margin-left:40%;
+    width:40vw; 
 }
 #section4 .steak_line{margin-bottom:8% ; }
 #section4 .steak_in_line{margin:0 auto;}
 
 #section4 .steak_type{
     width: 80vw;
-    height: 85vh;
+    height: auto;
     position: relative;
  
     
@@ -319,7 +319,7 @@
     left: 0;
     right: 0;
 }
-#section4 .steak_ho{ letter-spacing: 2px; margin:0; font-size: 14px;text-align:center; }
+#section4 .steak_ho{width:36vw; letter-spacing: 2px; margin:0; font-size: 14px;text-align:center; }
 #section5{
     width: 100%; height: auto;
 }
