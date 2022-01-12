@@ -240,6 +240,7 @@
    #section3 .wine_text{
     padding:0% 3%; text-align: center;
    }
+   .lunch_line3{  width:80%; border-bottom: 2px solid #ba2b31; margin:0 auto;}
    #section3 .wine_line{
       display: none;
    }

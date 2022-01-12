@@ -187,7 +187,8 @@
         width: 100%;
         height: auto;
     }
-   
+   .lunch_line3{  width:80%;
+    border-bottom: 2px solid #ba2b31;}
     #section3 .lunch_text{
       padding:0% 3%;
     }
