@@ -11,7 +11,7 @@
       justify-content: space-evenly;
 
   }
-  #banner .banner_text{
+  #banner .banner_text2{
    border-bottom: 8px solid #fff;
    box-shadow:0px 4px 4px -4px black ;
     font-size: 80px;
@@ -24,16 +24,16 @@
 .contain{width: 1200px; height: 4800px;margin:0 auto;display: flex; justify-content: space-between; }
 .left{width: 700px; height: 2000px; margin-top: 100px;}
 .right{width: 400px; height:2000px;margin-top: 100px;}
-.middle_line{height: 4600px;border:1px solid #ba2b31; margin:100px 0px;}
+.middle_line{height: 4600px;border:1px solid #ba2b3294; margin:100px 0px;}
 
 .news1{width: 700px;height: 700px; border-radius: 50px;box-shadow: -2px 0px 20px; }
 .news1_img{background: url("../main_img/news1.jpg") no-repeat;background-position: center;background-size: cover;
             width: 100%;height: 500px; border-radius: 50px 50px 0px 0px;
 }
 .left_news{margin-bottom: 50px;}
-.newstext{padding:10px 30px;}
+.newstext{padding:10px 30px; }
 .date{color:#ba2b31}
-.in{font-size: 23px;}
+.in{font-size: 23px; cursor:pointer;}
 .more{color:#ba2b31; font-size: 18px; font-weight: bold; cursor: pointer;}
 .more:hover{text-decoration: underline;}
 
@@ -92,3 +92,19 @@ input[type=search]:active{border:3px solid #ba2b31; outline: none;}
                  margin:5px;padding:6px 15px; border-radius: 5px;font-style: italic;
 }
 .tag .collection a:hover{background-color: #ba2b31; color:white; transition: all 0.5s ease;}
+
+.happy{background: url("https://cdn.notefolio.net/img/ed/a9/eda9ea99e4d0a1281979a9931e8c9a4dfc006fa78f330b62c8b4f541a1a42226_v1.jpg") no-repeat;
+  padding:20px 20px;        background-position: center;background-size: cover; width: 400px;height: 400px; margin-top: 100px; border-radius: 20px;
+}
+
+.hour{width: 400px;height: 400px; background-color:rgba(255, 255, 255, 0.767);
+      display: flex; flex-flow: column; justify-content: center;align-items: center;border-radius: 20px;
+}
+.hour>h1{font-size: 60px; margin:0;}
+.hour >p{font-size: 27px; font-weight: bold; line-height: 40px;}
+.hour >button{border:none;width: 250px; height: 60px; background-color: #ba2b31;color:#fff;font-size: 18px;cursor: pointer;border-radius: 20px;}
+
+.left_right >ul{width: 300px; display: flex; justify-content: space-evenly;margin:0 auto;}
+.left_right >ul li{font-size: 25px; cursor:pointer; width: 30px ; height: 30px;text-align: center; border-radius: 5px;}
+.left_right .left2:hover{color:#ba2b31;transition: all 0.5s ease;}
+.left_right .number:hover{background-color: #ba2b31;color:#fff;transition: all 0.5s ease;}
