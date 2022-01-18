@@ -95,7 +95,22 @@
 input[type=search]{width: 90%; height: 50px; border-radius: 20px; padding:0px 20px; border:3px solid #ba2b31;outline: none;}
 .search_icon{position: absolute;  cursor: pointer; left:85%;    bottom: 15px;color:#ba2b31;}
 
+.categories{width: 100%; height: auto;}
+.recent{width: 100%;height: auto;}
+.recent .post{ width: 100%;height:auto; }
+.recent .postin{width: 100%;height: auto;}
+.recent .first_post_text{width: 85%; height: auto;}
 
+.tag{margin-top: 100px;width: 100%; height: auto;}
+.tag .collection{width: 80%; display: flex; flex-flow: wrap;}
+
+.happy{background: url("https://cdn.notefolio.net/img/ed/a9/eda9ea99e4d0a1281979a9931e8c9a4dfc006fa78f330b62c8b4f541a1a42226_v1.jpg") no-repeat;
+    padding:20px 20px; background-position: center;background-size: cover; width: 80%;height: 400px; margin-top: 100px; border-radius: 20px; margin-bottom: 100px;
+  }
+  
+  .hour{width:100%;height: 400px; background-color:rgba(255, 255, 255, 0.767);
+        display: flex; flex-flow: column; justify-content: center;align-items: center;border-radius: 20px;
+  }
 
 
 

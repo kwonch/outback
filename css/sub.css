@@ -94,13 +94,13 @@ input[type=search]:active{border:3px solid #ba2b31; outline: none;}
 .tag .collection a:hover{background-color: #ba2b31; color:white; transition: all 0.5s ease;}
 
 .happy{background: url("https://cdn.notefolio.net/img/ed/a9/eda9ea99e4d0a1281979a9931e8c9a4dfc006fa78f330b62c8b4f541a1a42226_v1.jpg") no-repeat;
-  padding:20px 20px;        background-position: center;background-size: cover; width: 400px;height: 400px; margin-top: 100px; border-radius: 20px;
+  padding:20px 20px;        background-position: center;background-size: cover; width: 300px;height: 500px; margin-top: 100px; border-radius: 20px;
 }
 
-.hour{width: 400px;height: 400px; background-color:rgba(255, 255, 255, 0.767);
+.hour{width: 300px;height: 500px; background-color:rgba(255, 255, 255, 0.767);
       display: flex; flex-flow: column; justify-content: center;align-items: center;border-radius: 20px;
 }
-.hour>h1{font-size: 60px; margin:0;}
+.hour>h1{font-size: 45px; margin:0;}
 .hour >p{font-size: 27px; font-weight: bold; line-height: 40px;}
 .hour >button{border:none;width: 250px; height: 60px; background-color: #ba2b31;color:#fff;font-size: 18px;cursor: pointer;border-radius: 20px;}
 
