@@ -119,7 +119,7 @@ $(function(){
   });
 
   $(".chef:nth-of-type(1)").mouseout(function(){
-    $(" .chef .icon>i").css("display", "none")
+    $("  .chef:nth-of-type(1) .icon>i").css("display", "none")
   });
 });
 $(function(){
@@ -128,7 +128,7 @@ $(function(){
   });
 
   $(".chef:nth-of-type(2)").mouseout(function(){
-    $(" .chef .icon>i").css("display", "none")
+    $(" .chef:nth-of-type(2) .icon>i").css("display", "none")
   });
 });
 $(function(){
@@ -137,7 +137,7 @@ $(function(){
   });
 
   $(".chef:nth-of-type(3)").mouseout(function(){
-    $(" .chef .icon>i").css("display", "none")
+    $(" .chef:nth-of-type(3) .icon>i").css("display", "none")
   });
 });
 
