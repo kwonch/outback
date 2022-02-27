@@ -114,22 +114,35 @@ $(function(){
 
 });
 $(function(){
-  $( ".chef:nth-of-type(1)").hover(function(){
-    $(" .chef:nth-of-type(1) .icon>i").css("display", "inline-block")
-  }, function(){
-    $( ".chef.icon>i").css("display", "none");
+  $( ".chef:nth-of-type(1)").mouseenter(function(){
+   $(" .chef:nth-of-type(1) .icon>i").css("display", "inline-block")
   });
-  $( ".chef:nth-of-type(2)").hover(function(){
-    $(" .chef:nth-of-type(2) .icon>i").css("display", "inline-block")
-  }, function(){
-    $( ".chef .icon>i").css("display", "none");
-  });
-  $( ".chef:nth-of-type(3)").hover(function(){
-    $(" .chef .icon>i").css("display", "inline-block")
-  }, function(){
-    $( " .chef .icon>i").css("display", "none");
-  });
-  })
 
+  $(".chef:nth-of-type(1)").mouseleave(function(){
+    $(" .chef:nth-of-type(1) .icon>i").css("display", "none")
+  });
+});
+$(function(){
+  $( ".chef:nth-of-type(2)").mouseenter(function(){
+   $(" .chef:nth-of-type(2) .icon>i").css("display", "inline-block")
+  });
+
+  $(".chef:nth-of-type(2)").mouseleave(function(){
+    $(" .chef:nth-of-type(2) .icon>i").css("display", "none")
+  });
+});
+$(function(){
+  $( ".chef:nth-of-type(3)").mouseenter(function(){
+   $(" .chef:nth-of-type(3) .icon>i").css("display", "inline-block")
+  });
+
+  $(".chef:nth-of-type(3)").mouseleave(function(){
+    $(" .chef:nth-of-type(3) .icon>i").css("display", "none")
+  });
+});
+
+
+
+  
 
 
