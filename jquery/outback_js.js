@@ -115,7 +115,7 @@ $(function(){
 });
 $(function(){
   $( ".chef:nth-of-type(1)").mouseover(function(){
-   $(" .chef .icon>i").css("display", "inline-block")
+   $(" .chef:nth-of-type(1) .icon>i").css("display", "inline-block")
   });
 
   $(".chef:nth-of-type(1)").mouseout(function(){
